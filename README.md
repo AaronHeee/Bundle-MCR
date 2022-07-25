@@ -8,15 +8,6 @@ This is the pytorch implementation of this paper:
 
 Please cite our paper if using this code. 
 
-``` latex
-@inproceedings{he22bundle,
-  title = "Bundle MCR: Towards conversational bundle recommendation",
-  author = "Zhankui He and Handong Zhao and Tong Yu and Sungchul Kim and Fan Du and Julian McAuley",
-  year = "2022",
-  booktitle = "RecSys"
-}
-```
-
 ## Bunt Implementation
 
 **NOTE: The details of all dataset processing (and more information) are in `Appendix.pdf`.**

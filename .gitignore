@@ -1,3 +1,4 @@
+!data/steam/*
 !*.py 
 !*.ipynb
 *__pycache__*
