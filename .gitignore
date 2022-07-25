@@ -1,0 +1,14 @@
+!*.py 
+!*.ipynb
+*__pycache__*
+demo/*
+*data/*
+*/.glove/*
+*.pt
+.DS_Store
+*.save/*
+*.pyc
+*/.save/*
+*.json.gz 
+plotting/*
+*reference*
