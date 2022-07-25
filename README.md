@@ -18,17 +18,17 @@ We use python 3.6 and other python dependencies are listed in `requirements.txt`
 
 ## Quick Start
 
-1. Offline Pre-Training: use `bash scripts/train_offline.sh ${device_id} ${seed}`, where `${device_id}` is used to specify your GPU id, and `${seed}` is the random seed you assign. For example: 
+1. **Offline Pre-Training:** Use `bash scripts/train_offline.sh ${device_id} ${seed}`, where `${device_id}` is used to specify your GPU id, and `${seed}` is the random seed you assign. For example: 
 
     ```
     bash scripts/train_offline.sh 0 0
     ```
-2. Online Fine-Tuning: use `bash scripts/train_online.sh ${device_id} ${seed} ${pre_trained_model_path}`. The explanation of arguments are as the same as step 1, except for `${pre_trained_model_path}`, which is the `*.pt` model path to load as pre-trained Bunt for online fine-tuning, which can be found in `checkpoints` folder by default. For example:
+2. **Online Fine-Tuning:** Use `bash scripts/train_online.sh ${device_id} ${seed} ${pre_trained_model_path}`. The explanation of arguments are as the same as step 1, except for `${pre_trained_model_path}`, which is the `*.pt` model path to load as pre-trained Bunt for online fine-tuning, which can be found in `checkpoints` folder by default. For example:
 
     ```
     bash scripts/train_online.sh 0 0 checkpoints/steam/model_1.pt
     ```
-3. You are free to print out your results using `python tools/results.py ${ckpt_path}`, where `${ckpt_path}` is the path of your experiment folder, such as `checkpoints/steam`.
+3. **Collect Results:** You are free to print out your results using `python tools/results.py ${ckpt_path}`, where `${ckpt_path}` is the path of your experiment folder, such as `checkpoints/steam`.
 
 ## Data Processing (Now steam has been processed)
 
