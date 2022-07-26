@@ -37,7 +37,7 @@ We use python 3.6 and other python dependencies are listed in `requirements.txt`
 
 ## Bibtex
 
-Please cite our paper if using this code, thanks!
+Please cite our paper if using this code, and feel free to contact [zhh004@eng.ucsd.edu](zhh004@eng.ucsd.edu) if any questions.
 
 ```text
 @inproceedings{he22bundle,
