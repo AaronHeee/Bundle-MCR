@@ -2,11 +2,9 @@
 
 ![Introduction](./image/intro.jpg)
 
-This is the pytorch implementation of this paper:
+This is the pytorch implementation of this paper [Bundle MCR: Towards Conversational Bundle Recommendation.]() Zhankui He, Handong Zhao, Tong Yu, Sungchul Kim, Fan Du, Julian McAuley. 16th ACM Conference on Recommender Systems (RecSys '22). Oral.
 
-[Bundle MCR: Towards Conversational Bundle Recommendation.]() Zhankui He, Handong Zhao, Tong Yu, Sungchul Kim, Fan Du, Julian McAuley. 16th ACM Conference on Recommender Systems (RecSys '22). Oral.
-
-Please cite our paper if using this code. 
+**Arxiv version is on the way!**
 
 ## Bunt Implementation
 
@@ -36,3 +34,16 @@ We use python 3.6 and other python dependencies are listed in `requirements.txt`
 2. For data interaction processing and interactions splitting, use `python 0_data_splitting.py`
 3. To process attributes for Bundle MCR, use `python 1_item_attr.py`;
 4. To precess categories for Bundle MCR, use `python 2_item_cate.py`.
+
+## Bibtex
+
+Please cite our paper if using this code, thanks!
+
+```text
+@inproceedings{he22bundle,
+  title = "Bundle MCR: Towards conversational bundle recommendation",
+  author = "Zhankui He and Handong Zhao and Tong Yu and Sungchul Kim and Fan Du and Julian McAuley",
+  year = "2022",
+  booktitle = "RecSys"
+}
+```
