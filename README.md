@@ -2,15 +2,15 @@
 
 ![Introduction](./image/intro.jpg)
 
-This is the pytorch implementation of this paper [Bundle MCR: Towards Conversational Bundle Recommendation.]() Zhankui He, Handong Zhao, Tong Yu, Sungchul Kim, Fan Du, Julian McAuley. 16th ACM Conference on Recommender Systems (RecSys '22). Oral.
+This is the pytorch implementation of this paper [Bundle MCR: Towards Conversational Bundle Recommendation.]() 
+
+Zhankui He, Handong Zhao, Tong Yu, Sungchul Kim, Fan Du, Julian McAuley. 16th ACM Conference on Recommender Systems (RecSys '22). Oral.
 
 **Arxiv version is on the way!**
 
 ## Bunt Implementation
 
 **NOTE: The details of all dataset processing (and more information) are in `Appendix.pdf`.**
-
-This is the example code for RecSys 2022 paper submission "Bundle MCR: Towards Conversational Bundle Recommendation" on dataset Steam.
 
 We use python 3.6 and other python dependencies are listed in `requirements.txt`, you can install them with `pip install -r requirements.txt`.
 
