@@ -26,7 +26,7 @@ We use python 3.6 and other python dependencies are listed in `requirements.txt`
     ```
 3. **Collect Results:** You are free to print out your results using `python tools/results.py ${ckpt_path}`, where `${ckpt_path}` is the path of your experiment folder, such as `checkpoints/steam`.
 
-## Data Processing (Now steam has been processed)
+## Data Processing (Use `Steam` dataset as an example)
 
 1. Go to `steam` folder, `cd raw/`;
 2. For data interaction processing and interactions splitting, use `python 0_data_splitting.py`
