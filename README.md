@@ -2,11 +2,9 @@
 
 ![Introduction](./image/intro.jpg)
 
-This is the pytorch implementation of this paper [Bundle MCR: Towards Conversational Bundle Recommendation.]() 
+This is the pytorch implementation of this paper [Bundle MCR: Towards Conversational Bundle Recommendation.](https://arxiv.org/abs/2207.12628) 
 
 Zhankui He, Handong Zhao, Tong Yu, Sungchul Kim, Fan Du, Julian McAuley. 16th ACM Conference on Recommender Systems (RecSys '22). Oral.
-
-**Arxiv version is on the way!**
 
 ## Bunt Implementation
 
