@@ -33,6 +33,10 @@ We use python 3.6 and other python dependencies are listed in `requirements.txt`
 3. To process attributes for Bundle MCR, use `python 1_item_attr.py`;
 4. To precess categories for Bundle MCR, use `python 2_item_cate.py`.
 
+## Data Downloading (Updated on 12/09/22)
+
+Someone encountered the issues of downloading datasets from Git LFS, therefore we also upload the experimental datasets (`raw`, `processed` and related pre-processing scripts) to Google Drive. Please check this [link](https://drive.google.com/drive/folders/1IyFPuuBkeoT5hTsVJqKINkiqgjFiq_FB?usp=sharing) to download those datasets.
+
 ## Bibtex
 
 Please cite our paper if using this code, and feel free to contact [zhh004@eng.ucsd.edu](zhh004@eng.ucsd.edu) if any questions.
